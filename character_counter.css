@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffcccc;
+    padding: 20px;
+    border-radius: 10px;
+    border:5px solid #ff9999;
+    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    align-items: left;
+}
+
+textarea {
+    width: 500px;
+    height: 100px;
+    padding: 10px;
+    border: 2px solid #ff9999;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.counter {
+    color: grey;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+span {
+    font-size: 18px;
+}
+#total{
+    color:violet;
+}
+#remaining{
+    color:orangered;
+}
+
